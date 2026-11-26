@@ -1,0 +1,30 @@
+{
+  "name": "devops-kt3",
+  "version": "1.0.0",
+  "description": "KT3 App — CI/CD pipeline checkpoint (DevOps)",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "jest",
+    "lint": "eslint src/"
+  },
+  "keywords": [
+    "devops",
+    "ci-cd",
+    "github-actions",
+    "express",
+    "jest"
+  ],
+  "author": "Taov Alihan",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.2",
+    "eslint": "^9.39.2",
+    "globals": "^16.4.0",
+    "jest": "^30.2.0",
+    "supertest": "^7.1.4"
+  }
+}
